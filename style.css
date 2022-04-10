@@ -1,0 +1,155 @@
+body {
+  background-image: url(videos/western.mp4);
+  background-size: 200px;
+  
+}
+
+h1 {
+	color: black;
+	font-size: 60px;
+	font-family: 'Rye', cursive;
+	font-weight: bolder;
+	}
+
+h2 {
+	color: black;
+	font-size: 40px;
+	font-family: 'Rye', cursive;
+	font-weight: lighter;
+	}
+
+h3 {
+	color: black;
+	font-size: 20px;
+	font-family: 'Rye', cursive;
+	font-style: normal;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+a:hover {
+	color: red;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.poster{
+	width: 140px;
+	height: 200px;
+}
+
+
+
+
+#one{
+	background-color: #6D5241;
+}
+
+#two{
+	background-color: #7D7662;
+}
+
+#three{
+	background-color: #50403E;
+}
+
+#four{
+	background-color: #917B63;
+}
+
+#five{
+	background-color: #C09D73;
+}
+
+#six{
+	background-color: #915551;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+.blur:hover {
+	filter: blur(0.5px);
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 5px;
+}
+
+.icon-large {
+	width: 10px;
+	height: 20px;
+}
+
+.list-inline i{
+	font-size: 35px;
+}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+}
+
+p{
+	font-family: 'Rye', cursive;
+	font-style: italic;
+}
+
+
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
